@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardrobe Harmony</title>
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-image: url('fashion-background.jpg');
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ccc;
+        }
+
+        /* Main Content Styles */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 200px 20px 20px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #fff;
+            color: #000;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feature {
+            max-width: 300px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+        }
+
+        .feature img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        .feature p {
+            font-size: 1.2rem;
+            color: #000;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            font-size: 0.8rem;
+            z-index: 999;
+        }
+
+        /* Additional Info Styles */
+        .info {
+            margin-top: 50px;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Wardrobe Harmony</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="content">
+                <h2>Discover Your Perfect Outfit</h2>
+                <p>Effortlessly mix and match your wardrobe items with Wardrobe Harmony's innovative platform.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="feature">
+                <img src="https://fujilove.com/wp-content/uploads/2017/03/March_2017_Luca_Rossini_01.jpg" alt="Model 1">
+                <h3>Personalized Recommendations</h3>
+                <p>Our advanced algorithms analyze your wardrobe to provide personalized outfit suggestions.</p>
+            </div>
+            <div class="feature">
+                <img src="https://i.pinimg.com/564x/b8/a0/9b/b8a09b45f2a5bbce4f32d331ee759620.jpg" alt="Model 2">
+                <h3>Color Coding</h3>
+                <p>Each outfit recommendation is color-coded for visual harmony, ensuring you look your best.</p>
+            </div>
+            <div class="feature">
+                <img src="https://media.istockphoto.com/id/1387549302/photo/caucasian-woman-portrait-in-black-and-white.jpg?s=612x612&w=0&k=20&c=EoY0iPCfin1QvS72jQDTxlscdeyu1MEFdYcuS_AjJ-w=" alt="Model 3">
+                <h3>Fashion Education</h3>
+                <p>Stay up-to-date with the latest fashion trends and styling tips from our expert team.</p>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <div class="info">
+            <p>Join Wardrobe Harmony now to elevate your fashion game!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Wardrobe Harmony. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+
